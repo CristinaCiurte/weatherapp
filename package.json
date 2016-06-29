@@ -1,0 +1,25 @@
+{
+  "name": "weatherapp",
+  "version": "1.0.0",
+  "description": "Demo javascript weather app",
+  "main": "main.js",
+  "scripts": {
+    "watch": "webpack --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ccorcoveanu/weatherapp.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ccorcoveanu/weatherapp/issues"
+  },
+  "homepage": "https://github.com/ccorcoveanu/weatherapp#readme",
+  "devDependencies": {
+    "babel-core": "^6.10.4",
+    "babel-loader": "^6.2.4",
+    "babel-preset-es2015": "^6.9.0",
+    "webpack": "^1.13.1"
+  }
+}
