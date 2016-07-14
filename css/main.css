@@ -1,0 +1,36 @@
+#myBtn{
+    background-color: gold ;
+}
+
+#myBtn2{
+    background-color: gold;
+}
+
+#city{
+    font-size: large;
+}
+body{
+    margin-left: 250px;
+
+}
+
+.color {
+  background-color: lightblue;
+}
+
+#image{
+    margin-left: 100px;
+    margin-top: 10px;
+    height: 100px;
+    width: 100px;
+
+}
+
+#result_container2{
+    border: solid;
+    margin-right: auto;
+}
+
+.hidden {
+    display: none;
+}

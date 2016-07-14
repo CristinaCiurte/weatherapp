@@ -5,8 +5,35 @@
     <title>Weather app</title>
     <link rel="stylesheet" href="css/main.css" />
 </head>
-<body>
-    <h1>Weather App</h1>
+<body class = 'color' >
+    <div id = 'search_input'>
+        <h1>Weather App</h1>
+        <div id="current_date"> <p> Date: </p> </div>
+        <br>
+       <b> <label> Weather </label></b>
+       <input id="city" type="text" name="search" placeholder="Write the city name">
+        <button id="myBtn" type="button"> Search!</button>
+
+    </div>
+    <b><div id="result_container" class="hidden">
+        <div id="vreme"></div>
+        <img id="image" src=""/>
+        <br>
+        <button id="myBtn2" type="button"> Forecast </button>
+        <br>
+    </div></b>
+
+    <div id = 'result_container2' class="hidden">
+        <div id="vremea"></div>
+        <img id="img" src=""/>
+    </div>
+
+
+
+    <div id="back_input" class="hidden">
+        <button id = "btn" type = "button"> Forecast </button>
+    </div>
+
 </body>
 <script type="application/javascript" src="bundle.js"></script>
 </html>
